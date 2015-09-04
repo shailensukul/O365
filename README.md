@@ -3,7 +3,7 @@
 This repository contains projects and POCs for all things relating to Office 365 and SharePoint Online.
 Please read further below for individual projects:
 
-# Office 365 Documentor 
+## Office 365 Documentor 
 Project: [O365.Documentor] (https://github.com/shailensukul/Office365/tree/master/O365.Documentor)
 
 Screenshot:
@@ -19,7 +19,8 @@ This console app does the following:
 * Site Columns Inventory Report - creates a CSV report of all the site columns in the Site Collection which match a Group (group name is configured in the ColumnGroupName key in the app config file)
 * PageLayouts Inventory Report - creates a CSV report of all the page layouts in the Site Collection.
 
-# Security.SharePoint.App
+## SharePoint Addin with ADAL Security
+Project: Security.SharePoint.AddIn
 TODO
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
