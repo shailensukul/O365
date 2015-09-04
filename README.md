@@ -7,6 +7,7 @@ Please read further below for individual projects:
 Project: [O365.Documentor] (https://github.com/shailensukul/Office365/tree/master/O365.Documentor)
 
 Screenshot:
+
 ![Screenshot][logo]
 
 [logo]: https://github.com/shailensukul/Office365/blob/master/O365.Documentor/O365Documentor.png "Office 365 Documentor" 
