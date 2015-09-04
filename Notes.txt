@@ -1,0 +1,15 @@
+﻿Delete file history from Git
+https://help.github.com/articles/remove-sensitive-data/
+
+Open Git Tools command line
+
+$ git clone https://github.com/shailensukul/Office365.git
+
+$ cd Office365
+
+
+git filter-branch --force --index-filter \
+'git rm --cached --ignore-unmatch O365.Documentor/O365.Documentor/app.config' \
+--prune-empty --tag-name-filter cat -- --all
+
+git push origin --force --all
