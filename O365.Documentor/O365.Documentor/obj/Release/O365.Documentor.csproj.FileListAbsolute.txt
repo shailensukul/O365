@@ -1,0 +1,6 @@
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\bin\Release\Sukul.O365.Documentor.exe.config
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\bin\Release\Sukul.O365.Documentor.exe
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\bin\Release\Sukul.O365.Documentor.pdb
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\obj\Release\Sukul.O365.Documentor.exe
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\obj\Release\Sukul.O365.Documentor.pdb
+C:\Shailen\Code\Office365\repo\O365.Documentor\O365.Documentor\obj\Release\O365.Documentor.csprojResolveAssemblyReference.cache

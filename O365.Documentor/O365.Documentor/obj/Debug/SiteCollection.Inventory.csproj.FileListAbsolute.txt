@@ -1,0 +1,6 @@
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\bin\Debug\SiteCollection.Inventory.exe.config
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\bin\Debug\SiteCollection.Inventory.exe
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\bin\Debug\SiteCollection.Inventory.pdb
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\obj\Debug\SiteCollection.Inventory.csprojResolveAssemblyReference.cache
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\obj\Debug\SiteCollection.Inventory.exe
+C:\Shailen\Code\Office365\SiteCollection.Inventory\SiteCollection.Inventory\obj\Debug\SiteCollection.Inventory.pdb
