@@ -41,6 +41,14 @@ namespace O365.Documentor.Inventory.Configuration
             }
         }
 
+        public string TaxonomyGroupNameFilter
+        {
+            get
+            {
+                return System.Configuration.ConfigurationManager.AppSettings.Get("TaxonomyGroupNameFilter");
+            }
+        }
+
         public string SiteCollectionUrl
         {
             get
