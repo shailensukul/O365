@@ -125,6 +125,7 @@
     <Compile Include="Inventory\InventoryBase.cs" />
     <Compile Include="Inventory\SiteInventory.cs" />
     <Compile Include="Inventory\SiteColumnInventory.cs" />
+    <Compile Include="Inventory\TaxonomyReportXML.cs" />
     <Compile Include="Inventory\TaxonomyReport.cs" />
     <Compile Include="O365\Documentor\Taxonomy\Instance.cs" />
     <Compile Include="Program.cs" />

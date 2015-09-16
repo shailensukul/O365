@@ -67,9 +67,10 @@ namespace O365.Documentor.Inventory
                     Console.WriteLine("2 - Site Inventory Report (CSV)");
                     Console.WriteLine("3 - Site Inventory Report (XML)");
                     Console.WriteLine("4 - Taxonomy Report (CSV)");
-                    Console.WriteLine("5 - Content Type Inventory Report");
-                    Console.WriteLine("6 - Site Columns Inventory Report");
-                    Console.WriteLine("7 - PageLayouts Inventory Report");
+                    Console.WriteLine("5 - Taxonomy Report (XML)");
+                    Console.WriteLine("6 - Content Type Inventory Report");
+                    Console.WriteLine("7 - Site Columns Inventory Report");
+                    Console.WriteLine("8 - PageLayouts Inventory Report");
                     Console.WriteLine("\nENTER To Exit");
                     TagLine();
                     string key = Console.ReadLine();
@@ -119,6 +120,18 @@ namespace O365.Documentor.Inventory
                             break;
                         case "5":
                             Console.Clear();
+                            Console.WriteLine("Exporting taxonomy..");
+                            Taxonomy.TaxonomyReportXML.Instance.Init();
+                            Taxonomy.TaxonomyReportXML.Instance.Execute(
+                                ConfigurationManager.Instance.SiteCollectionUrl);
+                            Console.WriteLine(
+                                string.Format("Done. Check output directory ({0}).\nPress enter to return.",
+                                ConfigurationManager.Instance.OutputDirectory
+                                ));
+                            Console.ReadLine();
+                            break;
+                        case "6":
+                            Console.Clear();
                             Console.WriteLine("Exporting content types..");
                             ContentTypeInventory.Instance.Init();
                             ContentTypeInventory.Instance.Execute(
@@ -129,7 +142,7 @@ namespace O365.Documentor.Inventory
                                 ));
                             Console.ReadLine();
                             break;
-                        case "6":
+                        case "7":
                             Console.Clear();
                             Console.WriteLine("Exporting site columns..");
                             SiteColumnInventory.Instance.Init();
@@ -141,7 +154,7 @@ namespace O365.Documentor.Inventory
                                 ));
                             Console.ReadLine();
                             break;
-                        case "7":
+                        case "8":
                             Console.Clear();
                             Console.WriteLine("Exporting page layouts.");
                             PageLayoutInventory.Instance.Init();
